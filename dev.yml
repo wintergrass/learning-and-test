@@ -1,6 +1,6 @@
 ---
 imports:
-  - './target.yml'
+  - 'github.com/wintergrass/learning-and-test/target.yml'
 
 aliases:
     tests:
