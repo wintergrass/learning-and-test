@@ -1,0 +1,5 @@
+---
+variables:
+    node-publish-address: publish server address of node package
+    mssql-pid: product id for mssql
+    deploy-env: the current deployment environment, could be one of DEV, CI, INT, PROD

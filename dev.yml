@@ -1,0 +1,20 @@
+---
+imports:
+  - './target.yml'
+
+aliases:
+    tests:
+        log-disk: &log-disk
+            name: log
+            storage: mgmtlog
+            size: 16384
+            persistence: discardable
+        data-disk: &data-disk
+            name: data
+            storage: mgmtdata
+            size: 16384
+
+temps:
+  - name: 01
+    tests:
+      - <<: *test
