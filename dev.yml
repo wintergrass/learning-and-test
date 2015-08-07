@@ -17,4 +17,4 @@ aliases:
 temps:
   - name: 01
     tests:
-      - <<: *test
+      - <<: *log-disk
