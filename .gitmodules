@@ -1,0 +1,3 @@
+[submodule "subsrc"]
+	path = subsrc
+	url = https://github.com/wintergrass/subsrc
